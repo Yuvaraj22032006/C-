@@ -13,6 +13,8 @@ namespace MyFirstProject
         {
             bool success = true;
 
+            //while loop goes until the correct input is given
+            
             while (success)
             {
                 Console.WriteLine("Enter a no.: ");
@@ -20,7 +22,7 @@ namespace MyFirstProject
 
                 if (int.TryParse(numInput, int num);)
                 {
-                    success = false;
+                    success = false; //allows the code to exit the while loop when you enter a correct input
                     Console.WriteLine(num);
                 }
                 else
@@ -33,3 +35,4 @@ namespace MyFirstProject
         }
     }
 }
+
