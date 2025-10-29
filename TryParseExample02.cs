@@ -20,6 +20,7 @@ namespace MyFirstProject
 
                 if (int.TryParse(numInput, int num);)
                 {
+                    success = false;
                     Console.WriteLine(num);
                 }
                 else
