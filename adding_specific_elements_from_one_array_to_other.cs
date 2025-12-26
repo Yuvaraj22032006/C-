@@ -11,7 +11,10 @@ public class Program {
                 count++;
             }
 
-            string[] newArr = new string[count];
+            
+        }
+
+        string[] newArr = new string[count];
 
             int newArrIndex = 0;
             for (int i = 0; i < arr.Length; i++) {
@@ -21,6 +24,5 @@ public class Program {
                 }
             }
             Console.WriteLine(string.Join(", ", newArr));
-        }
     }
 }
